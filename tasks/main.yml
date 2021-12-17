@@ -12,9 +12,9 @@
     state: present
     update_cache: true
 
-- name: Install php{{ php_version }}-redis
+- name: "Install php{{ php_version }}-redis"
   apt:
-    pkg: php{{ php_version }}-redis
+    pkg: "php{{ php_version }}-redis"
     state: present
     update_cache: true
   notify: Restart php-fpm
