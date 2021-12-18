@@ -11,7 +11,7 @@ Get Started
 Add the role to the `galaxy.yml` file of Trellis :
 ```yaml
 - name: trellis-redis
-  src: https://github.com/E-VANCE/trellis-redis
+  src: https://github.com/Citvej/trellis-redis
   type: git
   version: 0.3.0
 ```
